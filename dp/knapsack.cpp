@@ -1,8 +1,6 @@
 #include <iostream>
 #include <vector>
 
-// A(k, s) = max(A(k - 1, s), A(k - 1, s - w_k) + p_k)
-
 void print_table(std::vector<std::vector<int> > table) {
   for (int i = 0; i < table.size(); ++i) {
     for (int j = 0; j < table[i].size(); ++j) {
